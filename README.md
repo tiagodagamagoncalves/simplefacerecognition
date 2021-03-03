@@ -8,4 +8,4 @@ This program is capable of detecting individuals' faces and displaying some pre-
 
 ----------------------------------------------------------------------
 
-25, JULY, 2017
+25, JULY, 2020
