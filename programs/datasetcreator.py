@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-faceDetect = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-cam = cv2.VideoCapture(1);
+faceDetect = cv2.CascadeClassifier("classifier/haarcascade_frontalface_default.xml")
+cam = cv2.VideoCapture(1); #0 for laptop webcam, 1 for external webcam;
 
-id = raw_input("Enter USER_ID that's associated to you: ")
+id = raw_input("Enter USER_ID that's associated to you: ") #based on the id introduced on "simplefacerecognition";
 sampleNum = 0;
 while True:
     ret,img=cam.read();
