@@ -1,2 +1,3 @@
-# simplefacerecognition
-A simple Face Recognition program based on Python and the OpenCV library.
+<h1> simplefacerecognition - 2017</h1>
+<ul>A<b>simple and easy</b> approach to Facial Recognition, created using Python and OpenCV, an open source and released under the BSD 3-Clause License library.</ul> 
+OpenCV : https://opencv.org/
