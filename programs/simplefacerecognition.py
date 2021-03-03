@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-faceDetect = cv2.CascadeClassifier("\classifier\haarcascade_frontalface_default.xml")
+faceDetect = cv2.CascadeClassifier("classifier\haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(1); #0 for laptop webcam, 1 for external webcam;
 
 
