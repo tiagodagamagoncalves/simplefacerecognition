@@ -15,7 +15,6 @@ font=cv2.cv.InitFont(cv2.cv.CV_FONT_HERSHEY_COMPLEX_SMALL,1, 0.75, 1.5,1, 2)
 #gender_Individual[N] = "Gender: ..."
 #occupation_Individual[N] = "Occupation: ... "
 #hobbies_Individual[N] = "Hobbies: ..."
-#criminal_Individual[N] = "Criminal Records: ..."
 #--------------------------------------------
 
 gender_Individual1 = "Gender: Male"
