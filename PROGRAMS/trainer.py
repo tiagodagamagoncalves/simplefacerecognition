@@ -27,4 +27,3 @@ recognizer.save('recognizer/trainningdata.yml')
 cv2.destroyAllWindows()
 
 #Made by Tiago Goncalves
-
