@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-faceDetect = cv2.CascadeClassifier("C:\Users\Tiago\Desktop\Face Recognizer               -           tiagogclvs\Classifiers\haarcascade_frontalface_default.xml")
+faceDetect = cv2.CascadeClassifier("\Classifiers\haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(1);
 
 id = raw_input("Enter USER_ID that's associated to you: ")
