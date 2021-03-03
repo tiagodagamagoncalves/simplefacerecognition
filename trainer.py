@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 recognizer=cv2.createLBPHFaceRecognizer();
-path=("C:\Users\Tiago\Desktop\Face Recognizer               -           tiagogclvs\dataSet")
+path=("\dataSet")
 
 def getImagesWithId(path):
     imagePaths=[os.path.join(path,f) for f in os.listdir(path)]
