@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
 
-faceDetect = cv2.CascadeClassifier("classifier\haarcascade_frontalface_default.xml")
+faceDetect = cv2.CascadeClassifier("classifier/haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(1); #0 for laptop webcam, 1 for external webcam;
 
 
 rec=cv2.createLBPHFaceRecognizer();
-rec.load('recognizer\trainningdata.yml')
+rec.load('recognizer/trainningdata.yml')
 id=0
 font=cv2.cv.InitFont(cv2.cv.CV_FONT_HERSHEY_COMPLEX_SMALL,1, 0.75, 1.5,1, 2)
 
