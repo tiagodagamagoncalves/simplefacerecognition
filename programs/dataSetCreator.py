@@ -4,7 +4,7 @@ import numpy as np
 faceDetect = cv2.CascadeClassifier("classifier/haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(0);
 
-id = raw_input("Enter USER_ID that's associated to you: ")
+id = raw_input("Enter USER_ID that's associated to you: ") #USER_ID same as defined in the simplefacerecognition.py file;
 sampleNum = 0;
 while True:
     ret,img=cam.read();
